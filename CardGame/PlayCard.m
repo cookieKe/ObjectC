@@ -56,4 +56,20 @@
     }
 }
 
+-(int)match:(NSArray *)cardArray
+{
+    int score = 0;
+    NSLog(@"go to match");
+    for (PlayCard *card in cardArray) {
+        if ([card.suits isEqualToString:self.suits]) {
+            score+=4;
+        }
+        if (card.rank == self.rank) {
+            score+=self.rank;
+        }
+    }
+    NSLog(@" match score :%d",score);
+    return score;
+}
+
 @end

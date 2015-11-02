@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		590E4CEF1BE2694700AC2B4F /* CardMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 590E4CEE1BE2694700AC2B4F /* CardMatch.m */; };
+		59AC7CE01BE5B78B00646C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59AC7CDE1BE5B78B00646C4C /* Main.storyboard */; };
 		59DF88F01BDC7E970056BF14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF88EF1BDC7E970056BF14 /* main.m */; };
 		59DF88F31BDC7E970056BF14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF88F21BDC7E970056BF14 /* AppDelegate.m */; };
 		59DF88F61BDC7E970056BF14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF88F51BDC7E970056BF14 /* ViewController.m */; };
-		59DF88F91BDC7E970056BF14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DF88F71BDC7E970056BF14 /* Main.storyboard */; };
 		59DF88FB1BDC7E970056BF14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DF88FA1BDC7E970056BF14 /* Images.xcassets */; };
 		59DF88FE1BDC7E970056BF14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59DF88FC1BDC7E970056BF14 /* LaunchScreen.xib */; };
 		59DF890A1BDC7E970056BF14 /* CardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF89091BDC7E970056BF14 /* CardGameTests.m */; };
@@ -34,6 +34,7 @@
 /* Begin PBXFileReference section */
 		590E4CED1BE2694700AC2B4F /* CardMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatch.h; sourceTree = "<group>"; };
 		590E4CEE1BE2694700AC2B4F /* CardMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatch.m; sourceTree = "<group>"; };
+		59AC7CDF1BE5B78B00646C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59DF88EA1BDC7E970056BF14 /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DF88EE1BDC7E970056BF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59DF88EF1BDC7E970056BF14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		59DF88F21BDC7E970056BF14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		59DF88F41BDC7E970056BF14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		59DF88F51BDC7E970056BF14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		59DF88F81BDC7E970056BF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59DF88FA1BDC7E970056BF14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		59DF88FD1BDC7E970056BF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		59DF89031BDC7E970056BF14 /* CardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,12 +113,12 @@
 		59DF88EC1BDC7E970056BF14 /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
+				59AC7CDE1BE5B78B00646C4C /* Main.storyboard */,
 				590E4CEC1BE268FF00AC2B4F /* Model */,
 				59DF88F11BDC7E970056BF14 /* AppDelegate.h */,
 				59DF88F21BDC7E970056BF14 /* AppDelegate.m */,
 				59DF88F41BDC7E970056BF14 /* ViewController.h */,
 				59DF88F51BDC7E970056BF14 /* ViewController.m */,
-				59DF88F71BDC7E970056BF14 /* Main.storyboard */,
 				59DF88FA1BDC7E970056BF14 /* Images.xcassets */,
 				59DF88FC1BDC7E970056BF14 /* LaunchScreen.xib */,
 				59DF88ED1BDC7E970056BF14 /* Supporting Files */,
@@ -232,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59DF88F91BDC7E970056BF14 /* Main.storyboard in Resources */,
+				59AC7CE01BE5B78B00646C4C /* Main.storyboard in Resources */,
 				59DF88FE1BDC7E970056BF14 /* LaunchScreen.xib in Resources */,
 				59DF88FB1BDC7E970056BF14 /* Images.xcassets in Resources */,
 			);
@@ -282,10 +282,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		59DF88F71BDC7E970056BF14 /* Main.storyboard */ = {
+		59AC7CDE1BE5B78B00646C4C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				59DF88F81BDC7E970056BF14 /* Base */,
+				59AC7CDF1BE5B78B00646C4C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
